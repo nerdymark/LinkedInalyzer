@@ -1,0 +1,40 @@
+# Config with real API keys
+config.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# Database
+*.db
+*.db-journal
+
+# Playwright
+playwright/.auth/
+playwright/profile/
+
+# Node / React frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Debug scripts
+debug_selectors.py
+
+# OS
+.DS_Store
+Thumbs.db
